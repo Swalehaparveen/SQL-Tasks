@@ -12,4 +12,4 @@ JOIN catalog_product_entity_int cpei ON
         p.entity_id = cpei.entity_id AND cpei.attribute_id = 99
     )
 WHERE
-    cpei.attribute_id = 99 AND cpei.value = 4;
+    cpei.attribute_id = 99 AND cpei.value IN (2, 3, 4);
