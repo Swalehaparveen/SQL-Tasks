@@ -2,9 +2,9 @@
 
 **Analysis-** 
 
-Joins the *catalog_product_entity* table with *catalog_product_entity_int* to fetch products visible on the website.
-Joins the catalog_product_entity_varchar table to get the URL keys.
-Filters products based on visibility (2, 3, or 4), representing products visible on the front end.
+1. Joins the *catalog_product_entity* table with *catalog_product_entity_int* to fetch products visible on the website.
+2. Joins the catalog_product_entity_varchar table to get the URL keys.
+3. Filters products based on visibility (2, 3, or 4), representing products visible on the front end.
 
 **Solution**
 
